@@ -33,7 +33,6 @@ body{
 }
 
 .produto{
-    border: #dd95ba groove 2px;
     border-radius: 3px;
     padding: 1em;
     width: 20em;
