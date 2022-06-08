@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Pacifico;
+    src: url('../../assets/fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../../assets/fonts/Montserrat-Regular.ttf');
+}
+
+body{
+    margin: 0px;
+    background-image: url("../../assets/images/background.jpg");
+    background-size: 100% 100em;
+}
+
+.container{
+    margin: 2em;
+    font-family: Montserrat;
+}
+
+.container_carrinho{
+    display: flex;
+    flex-direction: column;
+}
+
+.qtd_produto{
+    width: 2em;
+    height: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+.produto{
+    border: #dd95ba groove 2px;
+    border-radius: 3px;
+    padding: 1em;
+    width: 20em;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto span{
+    margin: 1em;
+}
+
+.produto img{
+    width: 7em;
+    height: 10em;
+}
+
+.container_total{
+    align-items: flex-end;
+}
