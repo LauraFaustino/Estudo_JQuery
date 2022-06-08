@@ -11,7 +11,8 @@ function floatToMoneyText(value){
     return text.substr(0, text.length -2) + "," + text.substr(-2);
 }
 
-
-var total = document.getElementById("total");
-var formattedText = floatToMoneyText(moneyTextToFloat(total.innerHTML));
-alert(formattedText === total.innerHTML);
+// chamada das funções
+function readTotal() {
+    var total = document.getElementById("total");
+    return moneyTextToFloat(total.innerHTML);
+}
