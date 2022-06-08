@@ -27,4 +27,7 @@ function writeTotal(value) {
     total.innerHTML = floatToMoneyText(value);
 }
 
-writeTotal(3.14);
+
+
+writeTotal(3.141523);
+
