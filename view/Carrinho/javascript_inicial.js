@@ -27,7 +27,14 @@ function writeTotal(value) {
     total.innerHTML = floatToMoneyText(value);
 }
 
+var produtos = document.getElementsByClassName("produto");
 
+for(var i = 0; i < produtos.length; i++) {
+    var priceElements = produtos[i].getElementsByClassName("preco");
+    var priceText = priceElements[0].innerHTML;
+    var price = moneyTextToFloat(priceText);
+    console.log(price);
+}
 
 writeTotal(3.141523);
 
